@@ -18,14 +18,14 @@ body{
 }
 @font-face {
     font-family: 'always';
-    src: url(fonts/always.ttf);
+    src: url("Fonts/always.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'rocko';
-    src: url(fonts/rocko.ttf);
+    src: url("Fonts/rocko.ttf");
     font-weight: normal;
     font-style: normal;
 }
