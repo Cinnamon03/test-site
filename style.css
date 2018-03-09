@@ -1,0 +1,110 @@
+html{
+    background-color: lightgray;
+}
+body{
+    position:relative;
+    background-color: whitesmoke;
+    margin:auto;
+    font-size: 20px;
+    font-family: rocko;
+}
+
+
+@font-face {
+    font-family: 'vibes';
+    src: url(fonts/vibes.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'always';
+    src: url(fonts/always.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rocko';
+    src: url(fonts/rocko.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.head{
+    font-size: 100px;
+    text-align: center;
+    margin: 20px;
+    
+}
+.head h1{
+    color:lightblue;
+    font-family: vibes;
+}
+.head h2{
+    color: lightcyan;
+     font-family: always;
+}
+
+.do{
+    text-align: center;
+}
+h3{
+    font-family: ;
+    color:darkblue;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+
+    
+}
+.nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 40px;
+    text-decoration: none;
+    
+}
+
+.nav li a:hover {
+    background-color: black;
+}
+
+.active{
+    background-color: darkblue;
+    
+}
+
+
+footer{
+	background:#555;	
+	position:relative;
+	font-family: rocko;
+    padding: 10px;
+	width:100%;
+    color: white;
+    
+	
+}
+.background {
+    background-image: url("Assets/bg.jpg");
+    
+}
+
