@@ -12,20 +12,20 @@ body{
 
 @font-face {
     font-family: 'vibes';
-    src: url("/Fonts/vibes.ttf");
+    src: url("fonts/vibes.ttf");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'always';
-    src: url("/Fonts/always.ttf");
+    src: url("fonts/always.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'rocko';
-    src: url("/Fonts/rocko.ttf");
+    src: url("fonts/rocko.ttf");
     font-weight: normal;
     font-style: normal;
 }
