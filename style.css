@@ -18,14 +18,14 @@ body{
 }
 @font-face {
     font-family: 'always';
-    src: url("Fonts/always.ttf");
+    src: url(fonts/always.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'rocko';
-    src: url("Fonts/rocko.ttf");
+    src: url(fonts/rocko.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -45,9 +45,12 @@ body{
      font-family: always;
 }
 
-.do{
+.do, .notes {
     text-align: center;
 }
+
+
+
 h3{
     font-family: ;
     color:darkblue;
@@ -107,4 +110,97 @@ footer{
     background-image: url("Assets/bg.jpg");
     
 }
+.first {
+    background-color: blue;
+    padding: 100px;
+    color: white;
+}
+
+.second {
+    background-color: cornflowerblue;
+    padding: 100px;
+     color: white;
+}
+
+.third {
+    background-color: royalblue;
+    padding: 100px;
+     color: white;
+}
+.fourth {
+    background-color: dodgerblue;
+    padding: 100px;
+     color: white;
+}
+
+.education {
+    background-color: deepskyblue;
+}
+
+.about{
+    background-color: ghostwhite;
+    padding: 170px;
+    background-image: url(Assets/pad.jpg);
+    background-size: 600px 500px;
+  
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+.subjects table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 1 rem;
+    color: white;
+}
+
+.subjects td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+.subjects th {
+  background-color: black;
+}
+
+.subjects td {
+  text-align: center;
+}
+
+.subjects tr:nth-child(even) td {
+  background-color: #444;
+}
+
+.subjects tr:nth-child(odd) td {
+  background-color: #333;
+}
+
+.subjects caption {
+  padding: 10px;
 
