@@ -10,6 +10,7 @@ body{
 }
 
 
+
 @font-face {
     font-family: 'vibes';
     src: url("Fonts/vibes.ttf");
@@ -55,8 +56,6 @@ body{
     text-align: center;
 }
 
-
-
 h3{
     
     color:darkblue;
@@ -73,9 +72,8 @@ h3{
     display: flex;
     top: 0;
     width: 100%;
-
-    
 }
+
 .nav li {
   display: inline;
   text-align: center;
@@ -146,7 +144,7 @@ footer{
 }
 
 .fifth{
-    background: deepskyblue;
+    background: lightskyblue;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -154,7 +152,7 @@ footer{
     list-style-type: disc;
 }
 .sixth{
-    background: dodgerblue;
+    background: deepskyblue;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -162,13 +160,13 @@ footer{
     list-style-type: disc;
 }
 .seventh{
-    background-color: deepskyblue;
+    background-color: lightskyblue;
     padding:40px;
     text-align: center;
     font-size: 25px;
 }
 .eighth{    
-    background: dodgerblue;
+    background:deepskyblue ;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -195,6 +193,7 @@ footer{
     text-align: center;
     color: lightcyan;
     font-size: 70px;
+    padding: 20px;
 }
 
 .exhead h2{
@@ -205,15 +204,8 @@ footer{
 }
 .h3header h3{
        color: darkblue;
-     font-family: broken;
-
-    
+     font-family: broken;  
 }
-
-
-
-
-
 
 .subjects table {
   border-collapse: collapse;
@@ -242,3 +234,5 @@ footer{
 .subjects tr:nth-child(odd) td {
   background-color: #333;
 }
+
+
