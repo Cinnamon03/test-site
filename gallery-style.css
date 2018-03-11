@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: white;
 }
 
 * {
@@ -22,13 +22,8 @@ h1 {
 .row {
     margin: 8px -16px;
 }
-h3 {
-    color: white;
-    
-}
-p {
-    color:aliceblue;
-}
+
+
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {

@@ -3,7 +3,7 @@ html{
 }
 body{
     position:relative;
-    background-color: whitesmoke;
+    background-color: white;
     margin:auto;
     font-size: 20px;
     font-family: sans-serif;
@@ -60,6 +60,10 @@ h3{
     
     color:darkblue;
     font-size: 30px;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .nav ul {
@@ -186,7 +190,17 @@ footer{
     background-color: ghostwhite;
     padding: 170px;
     background-image: url(Assets/pad.jpg);
-    background-size: 600px 500px;
+    background-size: contain;
+    
+}
+.aqualogo{
+    padding: 150px;
+    background-image: url(Assets/gallery/aqualogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+
 }
 
 .exhead{
