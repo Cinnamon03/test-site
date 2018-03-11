@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #444;
 }
 
 * {
@@ -7,7 +7,9 @@ body{
 }
 
 
-
+h2{
+    color: white;
+}
 /* Center website */
 .main {
     max-width: 1000px;
@@ -22,8 +24,13 @@ h1 {
 .row {
     margin: 8px -16px;
 }
-
-
+h3 {
+    color: white;
+    
+}
+p {
+    color:ghostwhite;
+}
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {

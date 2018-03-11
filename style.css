@@ -1,15 +1,18 @@
 html{
-    background-color: lightgray;
+    background-color: #444;
 }
 body{
     position:relative;
-    background-color: white;
+    background-color: #444;
     margin:auto;
     font-size: 20px;
     font-family: sans-serif;
 }
 
-
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
 
 @font-face {
     font-family: 'vibes';
@@ -61,17 +64,13 @@ h3{
     color:darkblue;
     font-size: 30px;
 }
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
 
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #444;
+    background-color: #222;
     position: fixed;
     display: flex;
     top: 0;
@@ -106,7 +105,7 @@ h3{
 
 
 footer{
-	background:#555;	
+	background:#333;	
 	position:relative;
 	font-family: rocko;
     padding: 30px;
@@ -120,27 +119,27 @@ footer{
     
 }
 .first {
-    background-color: blue;
+    background-color: gray;
     padding: 100px;
     color: white;
     font-family: rocko;
 }
 
 .second {
-    background-color: cornflowerblue;
+    background-color: gray;
     padding: 100px;
      color: white;
        font-family: rocko;
 }
 
 .third {
-    background-color: royalblue;
+    background-color: gray;
     padding: 100px;
      color: white;
        font-family: rocko;
 }
 .fourth {
-    background-color: deepskyblue;
+    background-color: gray;
 
     padding: 100px;
      color: white;
@@ -148,7 +147,7 @@ footer{
 }
 
 .fifth{
-    background: lightskyblue;
+    background: gray;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -156,7 +155,7 @@ footer{
     list-style-type: disc;
 }
 .sixth{
-    background: deepskyblue;
+    background: gray;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -164,13 +163,13 @@ footer{
     list-style-type: disc;
 }
 .seventh{
-    background-color: lightskyblue;
+    background-color: gray;
     padding:40px;
     text-align: center;
     font-size: 25px;
 }
 .eighth{    
-    background:deepskyblue ;
+    background:gray ;
     font-size: 25px;
     text-align: center;
     font-family: sans-serif;
@@ -180,18 +179,8 @@ footer{
 }
 
 .education {
-    background-color: blue;
-    background: linear-gradient(dodgerblue,deepskyblue);
-}
-
-
-
-.about{
-    background-color: ghostwhite;
-    padding: 170px;
-    background-image: url(Assets/pad.jpg);
-    background-size: contain;
-    
+    background-color: #333;
+    background: linear-gradient(#444,#333);
 }
 .aqualogo{
     padding: 150px;
@@ -200,7 +189,13 @@ footer{
     background-repeat: no-repeat;
     max-width: 100%;
     
+}
 
+.about{
+    background-color: ghostwhite;
+    padding: 170px;
+    background-image: url(Assets/pad.jpg);
+    background-size: 600px 500px;
 }
 
 .exhead{
