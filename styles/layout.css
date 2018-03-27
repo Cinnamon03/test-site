@@ -52,6 +52,7 @@ li a:hover:not(.active) {
     line-height: 2;
     color: #111;
     font-family: sans-serif;
+    font-size: 17px;
 }
 
 h3 {
@@ -76,8 +77,28 @@ h1{
     text-align: center;
     background-color: white;
     color: darkblue;
-    font-size: 50px;
-    
-    
-    
+    font-size: 50px;     
 }
+
+
+.oplist ul {
+    list-style-type: square;
+    overflow:auto;
+    background-color: darkblue;
+    position: -webkit-sticky; /* Safari */
+
+}
+
+.op list li {
+    float: left;
+}
+
+. oplist li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+
