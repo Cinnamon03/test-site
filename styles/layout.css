@@ -2,8 +2,7 @@
 body{
     position:relative;
     margin:auto;
-    
-    background: black;
+    background: white;
     
 }
 
@@ -22,16 +21,17 @@ ul {
     background-color: darkblue;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    display: flex;
     top:0;
     width:100%;
 }
 
 li {
-    float: left;
+ float:left;
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -45,21 +45,31 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #111;
+    background-color: black;
     color:white
 }
+.slideshow-container {
+  max-width: 1000px;
+  position: static;
+  margin: auto;
+}
+
+
 .main {
     max-width: 1000px;
     margin: auto;
-     background: repeating-linear-gradient(190deg,ghostwhite, aliceblue 10%, ghostwhite 20%);
+    background-color: ghostwhite;
     padding: 20px;
     line-height: 2;
     color: #111;
     font-family: sans-serif;
-    font-size: 17px;
+    font-size: 18px;
+}
+.main h3{
+    color: white;
 }
 
-h3 {
+h5 {
 	color:darkblue;
 	font-family:arial;
 	font-weight:bold;
@@ -69,17 +79,17 @@ h3 {
 footer{
     background:darkblue;	
 	position:relative;
-    padding: 30px;
+    padding: 20px;
 	width:100%;
     color: white;
     font-size: 20px;
 
 }
 h1{
-    font-family: cursive;
+    font-family: 'Chicle', cursive;
     text-align: center;
-    background-color: deepskyblue;
-    color: white;
+    
+    color: darkblue;
     font-size: 50px;     
 }
 
@@ -105,8 +115,63 @@ h1{
     font-size: 30px;
 }
 .background{
- background: repeating-linear-gradient(45deg,deepskyblue, skyblue 10%, deepskyblue 20%);
 
-    color: blue
+    background-color: whitesmoke;
+ 
+}
+td {
+   display: inline;
+  text-align: center;
+  flex: 1;   
+}
 
+.tumblr{
+    background-color: whitesmoke;
+
+	padding: 40px 50px;
+
+    
+}
+
+.footer h3{
+    color: darkblue;
+}
+.footer{
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+#footer li{
+      display: inline;
+  text-align: center;
+  flex: 1;
+
+    border-right: 1px solid #bbb;
+
+}
+
+.top-bar
+img{
+	position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 63px;
+    height: 63px;
+    margin: 8px 0 0 8px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+	
+}
+@-moz-keyframes spin { 50% { -moz-transform: rotate(-10deg); } }
+@-webkit-keyframes spin { 50% { -webkit-transform: rotate(-10deg); } }
+@keyframes spin { 50% { -webkit-transform: rotate(-10deg); transform:rotate(-10deg); } }
+
+.cs{
+   
+font-family: sans-serif;
+}
+.copy{
+    background: black;
+    padding: 30px;
 }

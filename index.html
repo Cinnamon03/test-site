@@ -5,35 +5,110 @@
     <link rel="icon" href="images/logo.jpg">
 	<title>Beepats | Home </title>
 	<link rel="stylesheet" href="styles/layout.css" >
+    <link rel="stylesheet" href="styles/elayout.css">
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+
 </head>
 <body>
 <div class="head">
 <img src="images/background1.jpg" alt="logo" style="width: 100%">
 </div>
-    
+
 
 <ul>
-<li><a class="active" href="index.html">Home</a></li>
-<li><a href="Achievements.html">Why Choose Us</a></li>
-<li><a href="Experience.html">Products</a></li>
-<li><a href="Gallery.html">Events</a></li>
-<li  style="float:right"><a href="about.html">About</a></li>
+<li><a  href="index.html"><div class="top-bar" >
+<img src="images/logo.jpg" alt="Beepats Logo" width="63px" height="63px">
+</div><div style="color: darkblue">Home</div></a></li>
+<li><a class="active">Home </a></li>
+<li><a href="Achievements.html">Why Choose Us </a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="about.html">About</a></li>
 <li><a href="Work.html">Contact</a></li>
 </ul>
 
-    
+  
 <div class="background">   
 <div class="main">
+
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="images/Slide 1.jpg" style="width:100%; Height: 500px">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="images/Slide 2.jpg" style="width:100%; Height:500px">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/Slideshow 2.jpg" style="width:100%; height:500px">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/Milo.jpg" style="width:100%; height:500px">
+ 
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="images/Beepats 3.jpg" style="width:100%; height:500px">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/Beepats 1.jpg" style="width:100%; height:500px">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="images/Beepats.jpg" style="width:100%; height:500px">
+
+</div>
+
+
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>  
   
 <h1>Welcome to the Home of Beepats</h1>  
 <hr>    
-    
-<h3 align="center">    
+
+<h5 align="center">    
 Guyana is a vast land where distribution and marketing can   be a challenge. However, as a family oriented business that has grown to a   corporate sized level, we have all the tools needed to ensure that our   agencies get the right representation it needs. 
-</h3> 
-    
+</h5> 
+  
 <div align="center">
-<img src="images/beepats-home.jpg" alt="beepats building" height="300px"; width="300px">
+
+    <img src="images/beepats50.jpg" alt="beepats building"  width="300px" height="300px"> 
+    <img src="images/beepats-home.jpg" alt="beepats building" height="300px"; width="300px">
 </div>
     
 <p align="justify">  
@@ -41,9 +116,49 @@ Beepats is one of the leading distributors in Guyana that   touches all parts of
     
 </div>    
 </div>  
+    
+<div class="tumblr" align="center">
+<img src="images/PL-DFI.jpg" alt="dfi logo">
+<img src="images/PL-connors.jpg" alt="connors logo">
+<img src="images/PLheinz.jpg" alt="heins logo">
+<img src="images/PL-Nestle.jpg" alt="Nestle logo">
+   <img src="images/PL-unilever.jpg" alt="Nestle logo">
+        <img src="images/PL-energizer.jpg" alt="dfi logo">
+    <img src="images/PL-jd.jpg" alt="heins logo">
+
+    </div>
+    
+<div class="footer" align ="center">
+<h5>Let's Connect!</h5>
+<a href="mailto:mail@beepats.com">
+<img src="images/Email.png" height="150px" width="250px"> </a>
+    
+
+</div>  
    
+    
+
 <footer align ="center">
-    Copyright © 2018 Beepats.com. All Rights Reserved.	
+<div id="footer">
+<ul>
+<li><strong>CATEGORIES:</strong><br><br><div class="cs">Groceries<br>Distributors<br>Wholesalers<br>Haberdasheries<br>Household Products<br>Schools and Office Supplies</div></li>    
+<li><STRONG>CONNECT:</STRONG><div><a href="https://www.facebook.com/AquaTech03">
+<img src="images/facebook.png" width="50px" height="50px"> </a><a href="https://twitter.com/Mr_Tom_Shelby">
+<img src="images/twitter.png" width="50px" height="50px"> </a><a href="https://www.facebook.com/AquaTech03">
+<img src="images/insta.png" width="50px" height="50px"> </a></div> </li>
+<li><STRONG>CONTACT:</STRONG><br><br>100 – 101 Regent Street,<br>
+Lacytown,<br>
+Georgetown,<br>
+Guyana. <br>
+Tel: +592 226-1292<br>
+Fax: +592 226-1939</li>
+</ul>
+    </div>
+<br>
+    </footer>
+    <footer align="center" style="background: #444;padding: 10">
+Copyright © 2018 Beepats.com. All Rights Reserved.
+
 </footer>    
     
 </body>
